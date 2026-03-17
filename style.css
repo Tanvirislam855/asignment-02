@@ -106,7 +106,7 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
   to{transform: rotate(360deg);}
 }
 .animation{
-  animation: spin 5s linear infinite;
+  animation: spin 20s linear infinite;
 }
 
 /* header styles */
@@ -143,14 +143,14 @@ margin: 0 auto;
  font-weight: 700;
 }
 
-/* footer styles */
+/* footer */
 footer{
   background-image: url('image/footer-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-position:center center;
-   width: 100%;
+  background-position:center;
+  width: 100%;
   position: relative;
   background-color: #1a0b2e;
 }
