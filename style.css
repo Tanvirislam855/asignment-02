@@ -30,19 +30,16 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
   background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
 }
 .gradient-bg{
-    background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
-    
+    background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);   
 }
 /* text-opacity */
 .opacity{
   opacity: 0.8;
-
 }
 /* animation btn */
 @-webkit-keyframes buttonSpin{
   from{-webkit-transform: translate(-50%,50%) rotate(0deg); transform: translate(-50%, -50%) rotate(0deg);}
   to{-webkit-transform: translate(-50% ,50%) rotate(360deg); transform: translate(-50%, -50%) rotate(300deg);}
-
 }
 
 @keyframes buttonSpin {
@@ -119,8 +116,7 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    position: relative;
-    
+    position: relative; 
 }
 
 @media (max-width: 768px) {
@@ -130,17 +126,12 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
     /* min-height: 100vh;  */
   }
 }
-
 /* hero-section */
 .hero-section .img1{
 width: 350px;
 max-width: 1200px;
 margin: 0 auto;
 }
-
-
-
-
 /* choose techWave styles */
 .choose-card{
   padding: 40px;
@@ -154,12 +145,12 @@ margin: 0 auto;
 
 /* footer styles */
 footer{
-  background-image: url('../assets/footer-bg.png');
+  background-image: url('image/footer-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-position:center center;
-    width: 100%;
-    position: relative;
-    background-color: #1a0b2e;
+   width: 100%;
+  position: relative;
+  background-color: #1a0b2e;
 }
