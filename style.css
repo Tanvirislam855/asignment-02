@@ -10,13 +10,7 @@ body {
   font-style: normal;
 }
 
-/* .main-width {
-  width: 71%;
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
-/* sherd styles */
+/* sherd style */
 .gradient-color{
 background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
 -webkit-background-clip: text;
@@ -32,11 +26,7 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
 .gradient-bg{
     background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);   
 }
-/* text-opacity */
-.opacity{
-  opacity: 0.8;
-}
-/* animation btn */
+
 @-webkit-keyframes buttonSpin{
   from{-webkit-transform: translate(-50%,50%) rotate(0deg); transform: translate(-50%, -50%) rotate(0deg);}
   to{-webkit-transform: translate(-50% ,50%) rotate(360deg); transform: translate(-50%, -50%) rotate(300deg);}
@@ -44,8 +34,7 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
 
 @keyframes buttonSpin {
   from {
-    transform: translate(-50%,-50%) rotate(0deg);
-  }
+    transform: translate(-50%,-50%) rotate(0deg);}
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
@@ -65,7 +54,6 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
   border-radius: 9999px;
   -webkit-isolation: isolate;
   isolation: isolate;
-  /* padding: 10px 20px; */
 }
 .animation-btn::before{
   content: '';
@@ -93,7 +81,6 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
   content: '';
   position: absolute;
   z-index: -1;
-  /* inset: 2px; */
   left: 2px;
   top: 2px;
   right: 2px;
@@ -101,13 +88,13 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
  background: #11071F;
   border-radius: 9999px;
 }
-@keyframes spin{
-  from{transform: rotate(0deg);}
-  to{transform: rotate(360deg);}
-}
-.animation{
-  animation: spin 20s linear infinite;
-}
+/* @keyframes spin{ */
+  /* from{transform: rotate(0deg);} */
+  /* to{transform: rotate(360deg);} */
+/* } */
+/* .animation{ */
+  /* animation: spin 20s linear infinite; */
+/* } */
 
 /* header styles */
 .banner-bg-img{
@@ -123,7 +110,6 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
   .banner-bg-img {
     background-size:contain; 
     background-position: center top; 
-    /* min-height: 100vh;  */
   }
 }
 /* hero-section */
@@ -132,7 +118,7 @@ width: 350px;
 max-width: 1200px;
 margin: 0 auto;
 }
-/* choose techWave styles */
+/*techWave styles */
 .choose-card{
   padding: 40px;
   background-color:#351165 ;
@@ -149,7 +135,6 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-position:center;
   width: 100%;
   position: relative;
   background-color: #1a0b2e;
