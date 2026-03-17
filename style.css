@@ -41,9 +41,12 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
 @media (max-width: 768px) {
   .banner-bg-img {
     background-size:contain; 
-    background-position: center top; 
+    background-position: center top;
+    
   }
 }
+
+
 /* hero-section */
 .hero-section .img1{
 width: 350px;
@@ -71,4 +74,11 @@ footer{
   width: 100%;
   position: relative;
   background-color: #1a0b2e;
+}
+@media (max-width: 768px) {
+  footer {
+    background-size: 220% auto;
+    background-position: center ;
+    /* background-repeat: no-repeat; */
+  }
 }
