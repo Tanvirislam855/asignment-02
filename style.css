@@ -1,13 +1,23 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* fixed styles */
+/* fixed style */
 body {
   background-color: #1a0b2e;
   color: white;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+/* header styles */
+.banner-bg-img{
+    background-image: url('image/hero-bg.png');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative; 
 }
 
 /* sherd style */
@@ -27,84 +37,6 @@ background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
     background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);   
 }
 
-@-webkit-keyframes buttonSpin{
-  from{-webkit-transform: translate(-50%,50%) rotate(0deg); transform: translate(-50%, -50%) rotate(0deg);}
-  to{-webkit-transform: translate(-50% ,50%) rotate(360deg); transform: translate(-50%, -50%) rotate(300deg);}
-}
-
-@keyframes buttonSpin {
-  from {
-    transform: translate(-50%,-50%) rotate(0deg);}
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-
-.animation-btn{
-  position: relative;
-  z-index: 1;
-  border: none !important;
-  overflow: hidden;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background: transparent;
-  color: #00FF88 !important;
-  border-radius: 9999px;
-  -webkit-isolation: isolate;
-  isolation: isolate;
-}
-.animation-btn::before{
-  content: '';
-  position: absolute;
-  z-index: -2;
-  left: 50%;
-  top: 50%;
-  width: 500%;
-  height: 500%;
-  background: -webkit-conic-gradient(
-    from 0deg at 50% 50%,
-    #f7e93f 0%,
-    #2d00f8 25%, 
-    #fb09b4 50%,
-    #f7e93f 75%, 
-    #9100f8 100%
-  );
-  background: conic-gradient(from 0deg at 50% 50%,#fb09b4, #9100f8 100% );
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50% );
-  -webkit-animation: buttonSpin 4s linear infinite;
-  animation: buttonSpin 2s linear infinite;
-}
-.animation-btn::after{
-  content: '';
-  position: absolute;
-  z-index: -1;
-  left: 2px;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
- background: #11071F;
-  border-radius: 9999px;
-}
-/* @keyframes spin{ */
-  /* from{transform: rotate(0deg);} */
-  /* to{transform: rotate(360deg);} */
-/* } */
-/* .animation{ */
-  /* animation: spin 20s linear infinite; */
-/* } */
-
-/* header styles */
-.banner-bg-img{
-    background-image: url('image/hero-bg.png');
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    position: relative; 
-}
 
 @media (max-width: 768px) {
   .banner-bg-img {
